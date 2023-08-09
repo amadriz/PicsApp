@@ -8,6 +8,9 @@ import searchImages from './api.js';
 import ImageList from './components/ImageList';
 
 
+
+
+
 import './App.css'
 
 function App() {
@@ -26,6 +29,7 @@ function App() {
   return (
     <>
       <SearchBar onSubmit={handleSubmit} />
+      
       <ImageList images={images} />
     </>
   )
